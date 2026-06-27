@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(129, 129, 129, 0.377);
+}
+
+header {
+    background: white;
+    padding: 1rem 5%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headingAndFooter img{
+    width: clamp(80px, 15vw, 180px);
+    height: auto;
+}
+
+#navLinks {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+#navLinks a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+#navLinks a:hover {
+    color: #2c7b35;
+    transition: 0.2s;
+}
+
+.heroContent {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: white;
+    background: rgb(29, 80, 22);
+    padding: 2.5rem;
+    border-radius: 120px;
+    border: 3px solid green;
+}
+
+.heroBtns {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.heroBtns a{
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-weight: bold;
+    background: black;
+}
+
+.heroBtns a:first-child {
+    background: #2c7b35;
+    color: white;
+}
+
+.heroBtns a:last-child {
+    border: 2px solid white;
+    color: white;
+}
+
+.heroBtns a:first-child:hover {
+    background: #23662a;
+    transition: 0.2s;
+}
+
+.heroBtns a:last-child:hover {
+    background: rgb(80, 80, 80);
+    transition: 0.2s;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+
+#NZNatureimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#crrntEnviroIssues {
+    text-align: center;
+    color: rgb(29, 80, 22);
+    text-decoration: underline;
+}
+
+.boxesContainers {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.boxOptions {
+    border: 2px solid black;
+    background: rgb(255, 255, 255);
+    padding: 1rem;
+    margin: 1rem;
+    flex: 1;
+    text-align: center;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.LrnMoreBtns {
+    color:rgb(55, 130, 45);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.LrnMoreBtns:hover {
+    color: rgb(10, 70, 3);
+    transition: 0.4s;
+}
