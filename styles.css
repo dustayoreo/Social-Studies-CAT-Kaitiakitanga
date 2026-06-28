@@ -127,11 +127,6 @@ nav {
     border-radius: 0.4rem;
 }
 
-
-.boxOptions:hover {
-    box-shadow: 15px 15px 5px rgb(41, 41, 41, 0.3);
-}
-
 .LrnMoreBtns {
     color:rgb(55, 130, 45);
     font-weight: bold;
