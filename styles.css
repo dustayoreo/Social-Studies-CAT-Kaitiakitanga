@@ -45,6 +45,10 @@ nav {
     height: auto;
 }
 
+.logosForOptionContainers:hover {
+    box-shadow: 10 10 5 rgb(41, 41, 41);
+}
+
 .heroContent {
     position: absolute;
     top: 50%;
