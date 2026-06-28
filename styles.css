@@ -46,7 +46,7 @@ nav {
 }
 
 .logosForOptionContainers:hover {
-    box-shadow: 10 10 5 rgb(41, 41, 41);
+    box-shadow: 10px 10px 5px rgb(41, 41, 41, 0.3);
 }
 
 .heroContent {
