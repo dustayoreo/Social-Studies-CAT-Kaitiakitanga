@@ -40,11 +40,6 @@ nav {
     transition: 0.2s;
 }
 
-.logosForOptionContainers {
-    width: 5rem;
-    height: auto;
-}
-
 .heroContent {
     position: absolute;
     top: 50%;
@@ -117,14 +112,30 @@ nav {
 }
 
 .boxOptions {
-    border: 2px solid black;
-    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    background: white;
     padding: 1rem;
     margin: 1rem;
     flex: 1;
-    text-align: center;
-    border: none;
     border-radius: 0.4rem;
+}
+
+.logosForOptionContainers {
+    width: 5rem;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.boxText {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.boxText h3 {
+    margin-top: 0;
 }
 
 .LrnMoreBtns {
