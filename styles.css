@@ -156,7 +156,9 @@ nav {
 
 .contentBlock {
     margin-right: 50%;
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 
 
