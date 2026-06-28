@@ -16,7 +16,7 @@ nav {
 }
 
 .headingAndFooter img{
-    width: clamp(80px, 15vw, 180px);
+    width: clamp(60px, 10vw, 160px);
     height: auto;
 }
 
