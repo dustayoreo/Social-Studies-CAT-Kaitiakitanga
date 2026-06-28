@@ -16,8 +16,9 @@ nav {
 }
 
 .headingAndFooter img{
-    width: clamp(40px, 5vw, 140px);
+    width: 60px;
     height: auto;
+    display: block;
 }
 
 #navLinks {
