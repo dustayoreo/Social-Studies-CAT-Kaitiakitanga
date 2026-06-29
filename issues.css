@@ -42,10 +42,13 @@ nav {
 
 .mainHeading {
     width: 50%;
+    background: white;
+    border-radius: 0.5rem;
 }
 
 #recyclingContamination {
     text-align: center;
+    color: rgb(29, 80, 22);
 }
 
 #mainHeadingText {
