@@ -164,12 +164,20 @@ nav {
     margin-top: 5rem;
 }
 
+.governmentText {
+    flex: 1;
+    max-width: 45%;
+}
+
 .nationalBuilding {
-    width: 60%;
+    flex: 1;
+    max-width: 45%;
 }
 
 .nationalBuilding img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 20px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, .2);
 }
