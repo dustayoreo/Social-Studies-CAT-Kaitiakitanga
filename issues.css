@@ -44,6 +44,10 @@ nav {
     width: 50%;
 }
 
+#recyclingContamination {
+    text-align: center;
+}
+
 #mainHeadingText {
     margin: 1rem;
     padding: 1.1rem;
@@ -52,4 +56,5 @@ nav {
 
 .paragraphs {
     text-align: left;
+    margin-left: 1rem;
 }
