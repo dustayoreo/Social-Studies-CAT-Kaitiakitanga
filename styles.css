@@ -165,7 +165,7 @@ nav {
 }
 
 .nationalBuilding {
-    flex: 1;
+    width: 45%;
 }
 
 .nationalBuilding img {
