@@ -49,11 +49,13 @@ nav {
 #recyclingContamination {
     text-align: center;
     color: rgb(29, 80, 22);
+    padding: 1rem;
 }
 
 #mainHeadingText {
     margin-left: 1.1rem;
     text-align: center;
+    color: rgb(29, 80, 22);
 }
 
 .paragraphs {
