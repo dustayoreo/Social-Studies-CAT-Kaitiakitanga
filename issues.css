@@ -39,3 +39,16 @@ nav {
     color: #2c7b35;
     transition: 0.2s;
 }
+
+.mainHeading {
+    width: 50%;
+    text-align: center;
+}
+
+#mainHeadingText {
+    margin: 1rem;
+}
+
+.paragraphs {
+    
+}
