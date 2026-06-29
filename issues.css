@@ -42,13 +42,14 @@ nav {
 
 .mainHeading {
     width: 50%;
-    text-align: center;
 }
 
 #mainHeadingText {
     margin: 1rem;
+    padding: 1.1rem;
+    text-align: center;
 }
 
 .paragraphs {
-    
+    text-align: left;
 }
