@@ -16,7 +16,7 @@ nav {
 }
 
 .headingAndFooter img{
-    width: 90px;
+    width: 10rem;
     height: auto;
 }
 
@@ -164,7 +164,8 @@ nav {
 .readMreBtns {
     background: rgb(55, 130, 45);
     color: white;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
+    padding: 1rem;
 }
 
 
