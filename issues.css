@@ -55,7 +55,7 @@ nav {
     box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.08);
 }
 
-#recyclingContamination {
+.subTitles {
     text-align: center;
     color: #2c7b35;
     font-size: clamp(1.3rem, 2vw, 1.8rem);
@@ -73,7 +73,7 @@ nav {
     margin-bottom: 1.5rem;
 }
 
-#mainHeadingText {
+.mainHeadingText {
     text-align: center;
     color: rgb(29, 80, 22);
     font-size: clamp(2rem, 4vw, 2.8rem);
