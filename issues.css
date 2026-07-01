@@ -45,12 +45,13 @@ nav {
 }
 
 .mainHeading {
-    width: min(90%, 7rem);
+    width: 90%;
+    max-width: 70rem;
     margin: 3rem auto;
     background: white;
     border-radius: 0.75rem;
     padding: 2.5rem;
-    border-top: 0.5 solid #2c7b35;
+    border-top: 0.4rem solid #2c7b35;
     box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.08);
 }
 
