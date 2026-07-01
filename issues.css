@@ -7,6 +7,10 @@ body {
 header {
     background: white;
     padding: 1rem 5%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 nav {
@@ -41,24 +45,36 @@ nav {
 }
 
 .mainHeading {
-    width: 50%;
+    width: min(90%, 7rem);
+    margin: 3rem auto;
     background: white;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
+    padding: 2.5rem;
+    border-top: 0.5 solid #2c7b35;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.08);
 }
 
 #recyclingContamination {
     text-align: center;
-    color: rgb(29, 80, 22);
-}
-
-#mainHeadingText {
-    margin-left: 1.1rem;
-    text-align: center;
-    color: rgb(29, 80, 22);
-    padding: 1rem;chicken
+    color: #2c7b35;
+    font-size: clamp(1.3rem, 2vw, 1.8rem);
+    margin-bottom: 2rem;
 }
 
 .paragraphs {
-    text-align: left;
-    margin-left: 1rem;
+    line-height: 1.8;
+    font-size: clamp(1rem, 1.2vw, 1.1rem);
+    color: #555;
+    padding-left: 1.5rem;
+}
+
+.paragraphs li {
+    margin-bottom: 1.5rem;
+}
+
+#mainHeadingText {
+    text-align: center;
+    color: rgb(29, 80, 22);
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    margin-bottom: 0.5rem;
 }
