@@ -39,3 +39,33 @@ nav {
     color: #2c7b35;
     transition: 0.2s;
 }
+
+.about {
+    width: 90%;
+    max-width: 1000px;
+    margin: 60px auto;
+}
+
+.about h1 {
+    text-align: center;
+    color: #1d5016;
+    font-size: clamp(2.3rem, 4vw, 3rem);
+}
+
+.aboutCard {
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+    border-left: 8px solid #2c7b35;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+    line-height: 1.8;
+}
+
+.aboutCard h2 {
+    color: #2c7b35;
+    margin-top: 25px;
+}
+
+.aboutCard p {
+    color: #555;
+}
