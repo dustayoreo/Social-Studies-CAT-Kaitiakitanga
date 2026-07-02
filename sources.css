@@ -43,3 +43,79 @@ nav {
     color: #2c7b35;
     transition: 0.2s;
 }
+
+.sources {
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+.sources h1 {
+    text-align: center;
+    color: #1d5016;
+    font-size: clamp(2.3rem, 4vw, 3.2rem);
+    margin-bottom: 15px;
+}
+
+.intro {
+    text-align: center;
+    color: #555;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 50px;
+    font-size: 1.05rem;
+}
+
+.sourceGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+.sourceCard {
+    background: white;
+    border-left: 8px solid #2c7b35;
+    border-radius: 18px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+    transition: 0.03s ease;
+}
+
+.sourceCard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 35pc rgba(0, 0, 0, .15);
+}
+
+.sourceCard h2 {
+    margin-top: 0;
+    color: #2c7b35;
+    font-size: 1.35rem;
+}
+
+.sourceCard p {
+    color: #555;
+    line-height: 1.7;
+    margin: 15px 0 25px;
+}
+
+.sourceCard a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #2c7b35;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.sourceCard a:hover {
+    background: #20612a;
+    transform: scale(1.05);
+}
+
+@media(max-width: 768px) {
+    .sourceGrid {
+        grid-template-columns: 1fr;
+    }
+}
