@@ -78,12 +78,12 @@ nav {
     border-radius: 18px;
     padding: 25px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
-    transition: 0.03s ease;
+    transition: 0.3s ease;
 }
 
 .sourceCard:hover {
     transform: translateY(-8px);
-    box-shadow: 0 18px 35pc rgba(0, 0, 0, .15);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, .15);
 }
 
 .sourceCard h2 {
